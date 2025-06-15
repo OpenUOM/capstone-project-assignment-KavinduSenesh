@@ -15,7 +15,7 @@ export class AddNewTeacherComponent implements OnInit {
   }
 
   createTeacher(value){
-
+    
     const teacher = {
       id : value.id,
       name : value.name,
